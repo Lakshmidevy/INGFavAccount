@@ -83,12 +83,18 @@
 		</dependency>
 	</dependencies>
 	
-        <distributionManagement>
+       <!-- <distributionManagement>
   <snapshotRepository>
     <id>nexus</id>
     <url>http://13.235.86.78:8081/nexus/content/repositories/snapshots</url>
   </snapshotRepository>
-</distributionManagement>
+</distributionManagement> -->
+	<distributionManagement>
+    		<snapshotRepository>
+      		<id>artifactory</id>
+       	      	<url>http://15.206.186.56:8081/artifactory/myrepo1</url>
+    		</snapshotRepository>
+	</distributionManagement>
 
 
 	<build>
